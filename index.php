@@ -1,4 +1,8 @@
 <?php
+	/*
+	Author: Ahmet Burak Babürşah https://burakbabursah.com
+	*/
+
 	function mailMaskele ( $email ) {
 	    $mailBölümleri = explode("@", $email); // explode fonksiyonu ile mailimizi (@) işaretinden öncesi ve sonrası olmak üzere 2 bölüme ayırıyoruz.
 	    $kullanıcıAdı = $mailBölümleri[0]; // ilk bölümü $kullanıcıAdı değişkenine atıyoruz.
